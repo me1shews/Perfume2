@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(230, 227, 227);
+}
+
+
+main {
+    border-radius: 20px;
+    width: 30rem;
+    height: 45rem;
+    background-color: white;
+    margin-left: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.flex {
+    display: block;
+}
+
+.image img {
+    width: 30rem;
+    height: 25rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.text {
+    padding-left: 2rem;
+}
+
+.text h2,
+h3,
+p {
+    font-weight: 4;
+}
+
+.text h2 {
+    color: rgb(116, 114, 114);
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.text h1 {
+    padding-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.text h3 {
+    padding-top: 1rem;
+    color: rgb(116, 114, 114);
+    font-size: 20px;
+}
+
+
+
+
+.text h4 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: rgb(78, 163, 78);
+    text-align: center;
+}
+
+.text h5{
+    font-size: 15px;
+    color: rgb(116, 114, 114);
+    text-align: center;
+}
+
+#btn{
+    width: 15rem;
+    height: 2rem;
+    background-color:rgb(78, 163, 78) ;
+    border-color: rgb(78, 163, 78);
+    border-radius: 10px;
+    margin-left: 7rem;
+}
+
